@@ -5,8 +5,10 @@ This is a Subdomain Scanner which get subs from wayback, crt and virustotal(need
 
 It will check if 200OK so you dont need to. have fun.
 
-Download.
+1.Download.
 
-python --version is needed 
+2.python --version is needed 
 
-run: python3 subdomain_scanner.py <example.com> -k <your-api-key>
+3.cd /path/to/files.
+
+4.run in terminal: python3 subdomain_scanner.py <example.com> -k <your-api-key>
