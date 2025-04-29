@@ -1,32 +1,72 @@
-# Subdomain Scanner 200OK
+🔍 Subdomain Scanner 200OK
+A fast, Python-based subdomain enumeration tool that fetches subdomains from public data sources and checks which ones respond with HTTP 200 OK. Perfect for bug bounty, penetration testing, and OSINT.
 
-🔍 A Python-based terminal tool to fetch subdomains from public sources (Wayback Machine, crt.sh, VirusTotal) and check if they return **200 OK**.
+⚙️ Features
+✅ Collects subdomains from:
 
-## Features
+Wayback Machine
 
-- Collects subdomains from:
-  - Wayback Machine
-  - crt.sh
-  - VirusTotal (API Key required)
-- Checks each subdomain for HTTP 200 OK status
-- CLI-based and simple to use
+crt.sh
 
-## Usage
+VirusTotal (API key required)
 
-python3 subdomain_scanner.py example.com -k <VirusTotal-API-Key>
+🔄 Checks for live subdomains by verifying HTTP 200 OK response
 
+🧰 Simple and lightweight CLI tool
 
-# subdomain-scanner200OK
--subdomain scanner which checks from crt.sh waybackMashine and virustotal(need API key) and checks if 200OK
+🐍 Written in Python 3 — no heavy dependencies
 
-This is a Subdomain Scanner which get subs from wayback, crt and virustotal(need API key).
+📦 Installation
+Clone the repository:
 
-It will check if 200OK so you dont need to. have fun.
+bash
+Kopieren
+Bearbeiten
+git clone https://github.com/Kaligula1987/subdomain-scanner200OK.git
+cd subdomain-scanner200OK
+Check your Python version:
 
-1.Download.
+bash
+Kopieren
+Bearbeiten
+python3 --version
+🚀 Usage
+Run the scanner using:
 
-2.python --version is needed 
+bash
+Kopieren
+Bearbeiten
+python3 subdomain_scanner.py example.com -k
+Replace example.com with your target domain.
 
-3.cd /path/to/files.
+Use -k to enable VirusTotal API integration.
 
-4.run in terminal: python3 subdomain_scanner.py <example.com> -k <your-api-key>
+💡 Note: VirusTotal requires a free API key. Get it here.
+
+📖 Example
+css
+Kopieren
+Bearbeiten
+[+] Fetching subdomains from Wayback, crt.sh, and VirusTotal...
+[+] Found 42 subdomains
+[+] Checking HTTP status for each...
+[200] mail.example.com
+[200] shop.example.com
+🔐 API Key Setup
+To use VirusTotal:
+
+Create an account at virustotal.com
+
+Get your API key from your dashboard
+
+Provide it via command line or script configuration
+
+🧠 Why Use Subdomain Scanner 200OK?
+Saves time by automating subdomain discovery and liveness checks
+
+Combines multiple data sources into a single scan
+
+Ideal for recon workflows, red teaming, and security assessments
+
+📚 License
+MIT License – use freely and responsibly.
