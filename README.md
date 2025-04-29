@@ -70,3 +70,7 @@ Ideal for recon workflows, red teaming, and security assessments
 
 📚 License
 MIT License – use freely and responsibly.
+
+https://github.com/Kaligula1987/subdomain-scanner200OK
+
+#subdomain #subdomain-scanner #scanner #sub #domains #subdomainscanner #kaligula
