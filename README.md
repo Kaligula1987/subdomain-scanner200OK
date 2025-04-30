@@ -28,11 +28,37 @@ python3 --version
 
 
 🚀 Usage
-Run the scanner using:
---------------------------------------------------------------
-run in terminal:
-python3 subdomain_scanner.py example.com -k
---------------------------------------------------------------
+1. Ensure You Have Python 3 Installed
+Run:
+
+
+python3 --version
+If not installed, install it:
+
+
+sudo apt update && sudo apt install python3 python3-pip -y
+2. Create and Activate a Virtual Environment (optional but recommended)
+
+
+
+python3 -m venv venv
+source venv/bin/activate
+3. Install Required Packages
+You only need requests, so install it:
+
+
+pip install requests
+You can also create a requirements.txt with:
+
+
+
+4. Run the Script
+Make sure you're in the same folder as subdomain_scanner.py.
+
+Then run:
+
+python3 subdomain_scanner.py example.com -k YOUR_API_KEY
+
 --------Replace example.com with your target domain----------
 
 
