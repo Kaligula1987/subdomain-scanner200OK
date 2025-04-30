@@ -37,18 +37,16 @@ If not installed, install it:
 
 
 sudo apt update && sudo apt install python3 python3-pip -y
+
 2. Create and Activate a Virtual Environment (optional but recommended)
 
-
-
 python3 -m venv venv
+then:
 source venv/bin/activate
+
+
 3. Install Required Packages
-You only need requests, so install it:
-
-
 pip install requests
-You can also create a requirements.txt with:
 
 
 
