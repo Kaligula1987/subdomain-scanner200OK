@@ -64,6 +64,12 @@ Combines multiple data sources into a single scan
 
 Ideal for recon workflows, red teaming, and security assessments
 
+
+Have fun its free!!!
+https://buymeacoffee.com/lukassimun
+
+
+
 📚 License
 MIT License – use freely and responsibly.
 
