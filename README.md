@@ -32,14 +32,12 @@ Bearbeiten
 python3 --version
 🚀 Usage
 Run the scanner using:
-
-bash
-Kopieren
-Bearbeiten
+--------------------------------------------------------------
+run in terminal:
 python3 subdomain_scanner.py example.com -k
-Replace example.com with your target domain.
+--------------------------------------------------------------
+--------Replace example.com with your target domain----------
 
-Use -k to enable VirusTotal API integration.
 
 💡 Note: VirusTotal requires a free API key. Get it here.
 
